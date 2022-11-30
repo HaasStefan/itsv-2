@@ -5,7 +5,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/luggage/feature-checkin"],
+      "outputs": [
+        "coverage/libs/luggage/feature-checkin"
+      ],
       "options": {
         "jestConfig": "libs/luggage/feature-checkin/jest.config.ts",
         "passWithNoTests": true
@@ -21,5 +23,8 @@
       }
     }
   },
-  "tags": ["domain:luggage", "type:feature"]
+  "tags": [
+    "domain:luggage",
+    "type:feature"
+  ]
 }
